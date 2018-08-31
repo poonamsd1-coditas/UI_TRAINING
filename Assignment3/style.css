@@ -1,0 +1,153 @@
+*{
+
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+
+}
+
+body{
+
+}
+
+.recover-wrap{
+
+	background-color:  #f6f6f6;
+	width: 1600px;
+	height: 900px;
+	position: relative;
+
+}
+
+.header{
+	background-color:  #17a2d4;
+	width: 1600px;
+	height: 100px;
+	position: relative;
+	float: left;
+	/*color:  #f4f4f4;*/
+	/*font-size: 30px;*/
+	
+}
+
+.header h2{
+	font-family: Lato;
+	padding-left: 50px;
+	padding-top: 35px;
+	color:  #f4f4f4;
+	font-size:	 30px;
+	width: 312px;
+	height: 22px;
+	font-weight: 800;
+	text-align: left;
+	float: left;
+}
+
+.header button{
+	float: left;
+	border-radius: 3px;
+	background-color:  #ffffff;
+	box-shadow: 0px 0px 5.76px 0.24px rgba(0, 0, 0, 0.24);
+	width: 140px;
+	height: 50px;
+	margin-top: 25px;
+	/*align-items:flex-end;*/
+}
+
+.signup-btn{
+	position: absolute;
+	right: 210px;
+	/*margin-left: 1250px;*/
+	/*margin:25px 0 25px 1250px;*/
+	color:  #000000;
+	font-size: 24px;/* Approximation due to font substitution */
+	font-weight: 400;
+	text-align: center;
+
+}
+
+.login-btn{	
+	position: absolute;
+	right: 50px;
+	/*margin-right: 50px;*/
+	float: left;
+	color:  #000000;
+	font-size: 24px;/* Approximation due to font substitution */
+	font-weight: 400;
+	text-align: center;
+}
+
+/*.clear{
+	clear: both;
+}*/
+
+.content{
+	border-radius: 3px;
+	background-color:  #ffffff;
+	box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.12);
+	width: 500px;
+	height: 260px;
+	/*padding: 109px 550px 109px 550px;*/
+	position: absolute;
+	top:209px;
+	left: 550px;
+		/*margin-left: 24px;*/
+
+}
+
+.item{
+	margin-left: 24px;
+}
+
+.content h2{
+	color:  #000000;
+	font-size: 24px;/* Approximation due to font substitution */
+	font-weight: 400;
+	text-align: left;
+	margin-top: 30px;
+	/*margin-left: 24px;*/
+}
+
+.item input{
+	border-radius: 3px;
+	border-width: 1px;
+	border-color:  #e8e8e8;
+	border-style: solid;
+	background-color:  #f6f6f6;
+	margin-top: 25px;
+	padding-left: 25px;
+	width: 448px;
+	height: 58px;
+
+	font-family: Lato;
+	color:  #969696;
+	font-size: 18px;/* Approximation due to font substitution */
+	font-weight: 400;
+	text-align: left;
+}
+
+.item h4{
+	font-family: Lato;
+	color:  #969696;
+	font-size: 18px; Approximation due to font substitution 
+	font-weight: 400;
+	text-align: left;
+	margin-top: 10px;
+}
+
+.link{
+	border-radius: 3px;
+	background-color:  #17a2d4;
+	width: 150px;
+	height: 50px;
+	margin-left: 193px;
+	margin-top: 26px;
+
+	font-family: Lato;
+	color:  #ffffff;
+	font-size: 18px;/* Approximation due to font substitution */
+	font-weight: 400;
+	text-align: center;
+}
+

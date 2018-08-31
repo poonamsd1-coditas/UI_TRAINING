@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+}
+body{
+
+}
+.login-wrap{
+	border-radius: 3px;
+	background-color:  #ffffff;
+	box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.12);
+	width: 500px;
+	margin: 100px auto;
+}
+.header{
+	background-color:  #17a2d4;
+	font-family: Lato;
+	color:  #f4f4f4;
+	font-size: 30px;/* Approximation due to font substitution */
+	font-weight: 800;
+	text-align: center;
+	padding: 24px;
+}
+.content{
+	padding: 25px;
+
+}
+.content .form-item {
+	margin-bottom: 20px;
+}
+.content .form-item input{
+	border-radius: 3px;
+	border-width: 1px;
+	border-color:  #e8e8e8;
+	border-style: solid;
+	background-color:  #f6f6f6;
+	width: 448px;
+	height: 58px;
+	padding-left: 10px;
+	font-size: 18px;
+	box-sizing: border-box;
+}
+.login-btn {
+	border-radius: 3px;
+	background-color:  #17a2d4;
+	width: 450px;
+	height: 60px;
+	color: #fff;
+	text-align: left;
+	padding-left: 10px;
+	font-size: 18px;
+}
+.facebook-btn{
+	border-radius: 3px;
+	background-color:  #3b5998;
+	width: 210px;
+	height: 60px;
+	color: #fff;
+	font-size: 18px;
+	float: left;
+	margin-right: 30px;
+}
+
+.google-btn{
+	border-radius: 3px;
+	background-color:  #d34836;
+	width: 210px;
+	height: 60px;
+	color: #fff;
+	font-size: 18px;
+	float: left;
+}
+
+.clear{
+	clear: both;
+}
+
+.forgot-password{
+	float: left;
+	color: #333;
+	text-decoration: none;
+	font-size: 18px;
+}
+.sign-up{
+	float: right;
+	color: #333;
+	text-decoration: none;
+	font-size: 18px;
+}

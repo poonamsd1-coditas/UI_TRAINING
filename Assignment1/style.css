@@ -1,0 +1,130 @@
+body{
+	margin:0;
+	padding:0;
+	font-family: sans-serif;
+	background: #dcdcdc;
+	
+	
+}
+
+.loginbox{
+		width:320px;
+		height:380px;
+		background:#fff;
+		color: #000;
+		top: 50%;
+		left: 50%;
+		position: absolute;
+		transform: translate(-50%,-50%);
+		box-sizing: border-box;
+		/*padding: 70px 30px;*/
+
+}
+
+h1{
+	margin:0;
+	padding: 20px 0 20px;
+	text-align: center;
+	font-size: 22px;
+	background: #00BFFF;
+	color: #fff;
+	margin-bottom: 20px;
+
+}
+
+/*.loginbox input{
+	width :90%;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	margin-right: 20px;
+
+}*/
+
+.loginbox input[type="text"], input[type="password"]
+{
+	width :90%;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	margin-right: 20px;
+	height: 40px;
+	background: #dcdcdc;
+	border: none;
+	outline: none;
+	font-size: 16px;
+
+}
+
+.loginbox input[type="submit"]
+{
+	width :90%;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	margin-right: 20px;
+	height: 40px;
+	background: #00BFFF;
+	color: #fff;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	text-align: left;
+}
+
+.loginbox input[value="Facebook"]
+{
+	position: relative;
+	width: 50%;
+	height: 40px;
+	background: #000080;
+	color: #fff;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	text-align: center;
+
+
+}
+
+.loginbox input[value="Google+"]
+{
+	position: absolute;
+	left: 165px;
+	width: 50%;
+	height: 40px;
+	background: #CD5C5C;
+	color: #fff;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	text-align: center;
+
+
+}
+
+.loginbox input[value="Forgot Password?"]
+{
+	padding-top: 30px;
+	position: relative;
+	width: 50%;
+	background: #fff;
+	color: #000;
+	border: none;
+	outline: none;
+	text-align: center;
+
+
+}
+
+.loginbox input[value="Sign up now"]
+{
+	padding-top: 30px;
+	position: absolute;
+	left: 165px;
+	
+	background: #fff;
+	color: #000;
+	border: none;
+	outline: none;
+	text-align: center;
+
+
+}
