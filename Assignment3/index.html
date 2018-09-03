@@ -7,8 +7,11 @@
 <body>
 	<div class="list-wrap">
 		<div class="header">
-			<h2>SPORTS EXCHANGE</h2>
-			<img src="./Layer 1.png">
+			<div class="wrap">
+				<h2>SPORTS EXCHANGE</h2>
+				<img src="./Layer 1.png">
+			</div>
+			
 		</div>
 
 		<div class="content">
@@ -21,37 +24,48 @@
 
 				<button value="drop-down">\/</button>
 			</div>
-			<div class="buttons-wrap">
-				<button>PROFILE</button>
-				<button value="SCHEDULE">SCHEDULE</button>
-				<button>ROSTER</button>
-				
-			</div>
+			<ul class = "menu-items">
+				<li class="menu-item">
+					<a>PROFILE</a>
+				</li>
+				<li class="menu-item active">
+					<a>SCHEDULE</a>
+				</li>
+				<li class="menu-item">
+					<a>ROSTER</a>
+				</li>
+			</ul>
 			<div class="events-wrap" >
 				<button value="Upcoming">Upcoming Events</button>
 				<button value="Past">Past Events</button>
 				<button value="Create">Create New Event</button>
 			</div>
-			<div class="first-wrap" value="first">
-				<div value = "number">1</div>
-				<div class="h-wrap">
-					<h1 value="h1">3 - 1</h1>
-					<p value="p2">Ancient Warriors VS Dare Devils</p>
-					<p value="p3">Tournament | 2016-01-26 | 05:00 PM</p>
-				</div>
-				<button class="dd">v</button>
-				<div class="clear"></div>
-			</div>
-			<div class="first-wrap" value="second">
-				<div value = "number">2</div>
-				<div class="h-wrap">
-					<h1 value="h1">1 - 2</h1>
-					<p value="p2">Ancient Warriors VS Dare Devils</p>
-					<p value="p3">Tournament | 2016-01-26 | 05:00 PM</p>
-				</div>
-				<button class="dd">v</button>
-				<div class="clear"></div>
-			</div>
+
+
+			<ul >
+				<li class="first-wrap">
+					<div value = "number">1</div>
+					<div class="h-wrap">
+						<h1 value="h1">3 - 1</h1>
+						<p value="p2">Ancient Warriors VS Dare Devils</p>
+						<p value="p3">Tournament | 2016-01-26 | 05:00 PM</p>
+					</div>
+					<button class="dd">v</button>
+					<div class="clear"></div>
+				</li>
+				
+			
+				<li class="first-wrap second">
+					<div value = "number">2</div>
+					<div class="h-wrap">
+						<h1 value="h1">1 - 2</h1>
+						<p value="p2">Ancient Warriors VS Dare Devils</p>
+						<p value="p3">Tournament | 2016-01-26 | 05:00 PM</p>
+					</div>
+					<button class="dd">v</button>
+					<div class="clear"></div>
+				</li>
+			</ul>
 			
 		</div>
 		
